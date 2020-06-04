@@ -1,159 +1,159 @@
 var keyData = {
 	q: {
 		sound: new Howl({
-			src: ["sounds/bubbles.mp3"],
+			src: ["sounds/sammie.m4a"],
 		}),
-		color: "#1abc9c",
+		color: "#aec6cf",
 	},
 	w: {
 		sound: new Howl({
-			src: ["sounds/clay.mp3"],
+			src: ["sounds/dave.mp3"],
 		}),
-		color: "#2ecc71",
+		color: "#e12121",
 	},
 	e: {
 		sound: new Howl({
-			src: ["sounds/confetti.mp3"],
+			src: ["sounds/emil.mp3"],
 		}),
-		color: "#3498db",
+		color: "#4B0082",
 	},
 	r: {
 		sound: new Howl({
-			src: ["sounds/corona.mp3"],
+			src: ["sounds/adam.mp3"],
 		}),
-		color: "#9b59b6",
+		color: "#007fff",
 	},
 	t: {
 		sound: new Howl({
-			src: ["sounds/dotted-spiral.mp3"],
+			src: ["sounds/travis.mp3"],
 		}),
-		color: "#34495e",
+		color: "#E37AD1 ",
 	},
 	y: {
 		sound: new Howl({
-			src: ["sounds/flash-1.mp3"],
+			src: ["sounds/josh.m4a"],
 		}),
 		color: "#16a085",
 	},
 	u: {
 		sound: new Howl({
-			src: ["sounds/flash-2.mp3"],
+			src: ["sounds/kinya.mp3"],
 		}),
-		color: "#27ae60",
+		color: "#e1ad01",
 	},
 	i: {
 		sound: new Howl({
-			src: ["sounds/flash-3.mp3"],
+			src: ["sounds/dora.mp3"],
 		}),
-		color: "#2980b9",
+		color: "#F1C40F",
 	},
 	o: {
 		sound: new Howl({
-			src: ["sounds/glimmer.mp3"],
+			src: ["sounds/pras.mp3"],
 		}),
-		color: "#8e44ad",
+		color: "#e05a5a",
 	},
 	p: {
 		sound: new Howl({
-			src: ["sounds/moon.mp3"],
+			src: ["sounds/paul.mp3"],
 		}),
-		color: "#2c3e50",
+		color: "#294E75 ",
 	},
 	a: {
 		sound: new Howl({
-			src: ["sounds/pinwheel.mp3"],
+			src: ["sounds/AARON_ILY.mp3"],
 		}),
-		color: "#f1c40f",
+		color: "#ed872d",
 	},
 	s: {
 		sound: new Howl({
-			src: ["sounds/piston-1.mp3"],
+			src: ["sounds/sara.mp3"],
 		}),
-		color: "#e67e22",
+		color: "#00A388",
 	},
 	d: {
 		sound: new Howl({
-			src: ["sounds/piston-2.mp3"],
+			src: ["sounds/dima.mp3"],
 		}),
-		color: "#e74c3c",
+		color: "#663399",
 	},
 	f: {
 		sound: new Howl({
-			src: ["sounds/prism-1.mp3"],
+			src: ["sounds/fizz.wav"],
 		}),
-		color: "#95a5a6",
+		color: "#40e0d0",
 	},
 	g: {
 		sound: new Howl({
-			src: ["sounds/prism-2.mp3"],
+			src: ["sounds/gulsah.mp3"],
 		}),
-		color: "#f39c12",
+		color: "#003B6F",
 	},
 	h: {
 		sound: new Howl({
-			src: ["sounds/prism-3.mp3"],
+			src: ["sounds/eric.mp3"],
 		}),
-		color: "#d35400",
+		color: "#008b8b",
 	},
 	j: {
 		sound: new Howl({
-			src: ["sounds/splits.mp3"],
+			src: ["sounds/jamie.mp3"],
 		}),
-		color: "#1abc9c",
+		color: "#d60000",
 	},
 	k: {
 		sound: new Howl({
-			src: ["sounds/squiggle.mp3"],
+			src: ["sounds/kika.aac"],
 		}),
-		color: "#2ecc71",
+		color: "#01ff00",
 	},
 	l: {
 		sound: new Howl({
-			src: ["sounds/strike.mp3"],
+			src: ["sounds/lea.mp3"],
 		}),
-		color: "#3498db",
+		color: "#f5f5f5 ",
 	},
 	z: {
 		sound: new Howl({
-			src: ["sounds/suspension.mp3"],
+			src: ["sounds/aj.mp3"],
 		}),
-		color: "#9b59b6",
+		color: "#002366",
 	},
 	x: {
 		sound: new Howl({
-			src: ["sounds/timer.mp3"],
+			src: ["sounds/james.mp3"],
 		}),
-		color: "#34495e",
+		color: "#EDED45",
 	},
 	c: {
 		sound: new Howl({
-			src: ["sounds/ufo.mp3"],
+			src: ["sounds/carola.mp3"],
 		}),
-		color: "#16a085",
+		color: "#87dbea",
 	},
 	v: {
 		sound: new Howl({
-			src: ["sounds/veil.mp3"],
+			src: ["sounds/v.mp3"],
 		}),
-		color: "#27ae60",
+		color: "#fcaaba",
 	},
 	b: {
 		sound: new Howl({
-			src: ["sounds/wipe.mp3"],
+			src: ["sounds/lucas.mp3"],
 		}),
-		color: "#2980b9",
+		color: "#D00027",
 	},
 	n: {
 		sound: new Howl({
-			src: ["sounds/zig-zag.mp3"],
+			src: ["sounds/lode.mp3"],
 		}),
-		color: "#8e44ad",
+		color: "#23d90b",
 	},
 	m: {
 		sound: new Howl({
-			src: ["sounds/ayo.mp3"],
+			src: ["sounds/michel.mp3"],
 		}),
-		color: "#2c3e50",
+		color: "#6a0da3",
 	},
 };
 
@@ -164,7 +164,7 @@ function onKeyDown(event) {
 		var maxPoint = new Point(view.size.width, view.size.height);
 		var randomPoint = Point.random();
 		var point = maxPoint * randomPoint;
-		var newCircle = new Path.Circle(point, 1000);
+		var newCircle = new Path.Circle(point, 1200);
 		newCircle.fillColor = keyData[event.key].color;
 		keyData[event.key].sound.play();
 		circles.push(newCircle);
@@ -175,7 +175,7 @@ function onFrame(event) {
 	for (var i = 0; i < circles.length; i++) {
 		circles[i].scale(0.9);
 		circles[i].fillColor.hue += 1;
-		if (circles[i].area < 1) {
+		if (circles[i].area < 2) {
 			circles[i].remove();
 			circles.splice(i, 1);
 			console.log(circles);
