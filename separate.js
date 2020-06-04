@@ -31,9 +31,9 @@ var keyData = {
 	},
 	y: {
 		sound: new Howl({
-			src: ["sounds/josh.m4a"],
+			src: ["sounds/josh.mp3"],
 		}),
-		color: "#16a085",
+		color: "#808000",
 	},
 	u: {
 		sound: new Howl({
