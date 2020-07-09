@@ -1,4 +1,4 @@
-I made this customized patatap clone for the Yes Theory Fam discord server because everyone's quarantined, stressed and can't travel to meet each other.
+Built for the Yes Theory Fam discord server because everyone's quarantined, stressed and can't travel around to meet each other.
 
 This site lets you play the glorious sounds of some people in the YesFam discord server along with their favourite hex-code specific colours. 
 
