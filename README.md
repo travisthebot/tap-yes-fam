@@ -1,61 +1,57 @@
-Built for the Yes Theory Fam discord server because everyone's quarantined, stressed and can't travel around to meet each other.
-
-This site lets you play the glorious sounds of some people in the YesFam discord server along with their favourite hex-code specific colours. 
+# Built for the Yes Theory Fam discord server.
+As everyone's quarantined, stressed and can't travel around to meet each other, this site lets you play the glorious sounds of some people in the YesFam discord server along with their favourite hex-code specific colours. 
+---
 
 Any glitchy effects are INTENDED because this is a chaotic bunch of people.
 
-Made by Travis 2020.
+## The keys and their respective owner of the sounds:
 
-The keys and their respective owner of the sounds:
+1. A: Aaron 
 
-A: Aaron x
+2. B: Lucas 
 
-B: Lucas x
+3. C: Carola 
 
-C: Carola x
+4. D: Dima 
 
-D: Dima x
+5. E: Emil 
 
-E: Emil x
+6. F: Fizza 
 
-F: Fizza x
+7. G: Gulsah 
 
-G: Gulsah x
+8. H: Eric 
 
-H: Eric x
+9. I: Dora 
 
-I: Dora x
+10. J: Jamie 
 
-J: Jamie x
+11. K: Kika
 
-K: Kika x
+12. L: Lea
 
-L: Lea x
+13. M: Michel
 
-M: Michel x
+14. N: Lode
 
-N: Lode x
+15. O: Prasanth
 
-O: Prasanth x
+16. P: Paul
 
-P: Paul x
+17. Q: Sammie
 
-Q: Sammie x
+18. R: Adam 
 
-R: Adam x
+19. S: Sara 
 
-S: Sara x
+20. T: Travis 
 
-T: Travis x
+21. U: Kinya 
 
-U: Kinya x
+22. V: Veronika 
 
-V: Veronika x
+23. W: Dave 
 
-W: Dave x
+24. X: James
 
-X: James x
-
-Y: Josh x
-
-Z: AJ x
+25. Y: Josh 
